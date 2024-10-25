@@ -1,0 +1,138 @@
+.worksContainer {
+  height: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.workTitle span {
+  background: linear-gradient(49deg, #0a0a0a 22%, #4c4c4c 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Helvetica-Bold";
+  font-size: 32px;
+  line-height: normal;
+}
+.workTitle {
+  color: #0a0a0a;
+  font-family: "Helvetica-Regular";
+  font-size: 32px;
+  line-height: normal;
+}
+
+.works__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.works__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.works__item {
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #f3f4f6;
+  /* transition: transform 0.3s ease; */
+  cursor: pointer;
+}
+
+/* .works__item:hover {
+  transform: scale(1.02);
+} */
+
+.works__image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.works__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+/* .works__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+} */
+
+/* .works__item:hover .works__overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+
+/* .works__item-title {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 0 20px;
+} */
+
+/* .works__item:hover .works__item-title {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+/* Tablet Breakpoint */
+@media screen and (min-width: 768px) {
+  .works__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .works__item--large {
+    grid-column: span 2;
+  }
+}
+
+/* Desktop Breakpoint */
+@media screen and (min-width: 1024px) {
+  .works__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .works__item--large {
+    grid-column: span 2;
+  }
+
+  .works__item--small {
+    grid-column: span 1;
+  }
+}
+
+/* Larger Desktop Screens */
+@media screen and (min-width: 1280px) {
+  .works__grid {
+    gap: 30px;
+  }
+}
+
+/* Small Mobile Screens */
+@media screen and (max-width: 375px) {
+  .works {
+    padding: 0 10px;
+  }
+
+  .works__grid {
+    gap: 15px;
+  }
+}
