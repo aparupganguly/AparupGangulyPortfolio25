@@ -21,7 +21,7 @@ const Works = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Initial animation for title (immediately visible with subtle animation)
+    // Initial animation for title
     gsap.fromTo(titleRef.current,
       {
         opacity: 0,
@@ -60,7 +60,6 @@ const Works = () => {
           opacity: 0,
           y: 100,
           scale: 0.95,
-
         },
         {
           opacity: 1,
@@ -78,10 +77,10 @@ const Works = () => {
       );
     });
 
-    // Parallax effect on all images (subtle for first two, stronger for others)
+    // Parallax effect on all images
     workRefs.current.forEach((item, index) => {
       const image = item.querySelector('.works__image');
-      const parallaxStrength = index < 2 ? -10 : -20; // Subtle parallax for first two
+      const parallaxStrength = index < 2 ? -10 : -20; // Adjusted strength
 
       gsap.to(image, {
         yPercent: parallaxStrength,
@@ -114,9 +113,7 @@ const Works = () => {
             ref={el => workRefs.current[index] = el}
             className={`works__item works__item--${work.category}`}
             style={{
-              // Ensure initial visibility for first two items
               visibility: 'visible',
-              // Optional: add initial opacity for smoother first render
               opacity: index < 2 ? 1 : 0
             }}
           >
@@ -127,7 +124,8 @@ const Works = () => {
                 className="works__image"
               />
               <div className="works__overlay">
-                {/* <h3 className="works__item-title">{work.title}</h3> */}
+                {/* Optional title overlay */}
+                <h3 className="works__item-title">{work.title}</h3>
               </div>
             </div>
           </div>

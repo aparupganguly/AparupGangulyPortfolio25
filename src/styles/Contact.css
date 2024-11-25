@@ -1,0 +1,60 @@
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  max-width: 50em;
+}
+
+.interest-button {
+  padding: 1.5em 3.5em;
+  border: 3px solid #b6b6b6;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 10em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Helvetica-Regular;
+}
+
+.interest-button:hover {
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 10px 0;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #aaa; /* Bottom border */
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #333;
+}
+
+.contact-heading {
+  font-size: 4em;
+  letter-spacing: -3px;
+}
+.contactHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-heading2 {
+}
+
+.interest-form {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.form-section input {
+}

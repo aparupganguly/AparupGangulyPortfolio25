@@ -1,4 +1,8 @@
-/* Navbar.css */
+* {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 
 body {
   font-family: "Helvetica Now Display";

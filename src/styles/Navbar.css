@@ -1,30 +1,80 @@
+/* Main navbar container */
 .navbarContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em 1em 2em;
+  padding: 1em 2em;
+  position: relative;
 }
 
+/* Time display styling */
 .time {
   text-align: center;
   font-family: "Helvetica Now Display";
   font-size: 16px;
-  font-family: "Helvetica-Regular";
-  line-height: normal;
   background: linear-gradient(90deg, #0a0a0a 0%, #707070 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Menu button styling */
 .menu {
   text-align: right;
   font-size: 20px;
   font-family: "Helvetica-Medium";
+  cursor: pointer;
   background: linear-gradient(90deg, #0a0a0a 0%, #707070 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.logo {
-  height: 1.5em;
+
+/* Fullscreen menu container */
+.fullscreenMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6ee; /* Adjust the color to match your design */
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Helvetica-Medium";
+  color: #333;
+}
+
+/* Menu items */
+.menuItems p {
+  font-size: 48px;
+  margin: 20px 0;
+  cursor: pointer;
+  font-family: "Helvetica Now Display";
+  color: #333;
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+  font-size: 18px;
+  font-family: "Helvetica-Medium";
+  color: #707070;
+}
+/* Prevent scrolling when the menu is open */
+.no-scroll {
+  overflow: hidden;
 }

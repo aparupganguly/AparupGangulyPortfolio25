@@ -1,6 +1,7 @@
 .heroName {
   font-size: 8em;
-  font-family: "Helvetica-Bold";
+  font-family: "Helvetica-Medium";
+  letter-spacing: -3px;
   color: #0a0a0a;
   text-align: center;
   line-height: 0;
@@ -111,7 +112,6 @@
   }
 }
 
-
 @media only screen and (max-width: 890px) {
   .heroName {
     font-size: 3.7em;
@@ -142,8 +142,8 @@
 }
 
 @media only screen and (max-width: 1200px) {
-.heroName{
-  font-size: 4em;
-  line-height: 1;
-}
+  .heroName {
+    font-size: 4em;
+    line-height: 1;
+  }
 }
