@@ -38,7 +38,6 @@ const Works = () => {
       }
     );
 
-    // Initial animation for first two works
     const initialWorks = workRefs.current.slice(0, 2);
     gsap.fromTo(initialWorks,
       {

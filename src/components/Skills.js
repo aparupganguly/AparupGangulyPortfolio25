@@ -57,19 +57,19 @@ const Skills = () => {
       title: "Web & Mobile Application Development",
       description: "Industry Leading Development with 3D & 2D award-winning animations and latest technologies",
       technologies: ["React.JS", "Three.JS", "Next.JS", "React Native", "TypeScript", "GSAP",],
-      image: "https://i.pinimg.com/originals/c4/37/12/c43712af49b76ffbf268dd254800624d.gif"
+      image: "https://i.pinimg.com/originals/5b/e9/95/5be995084220773903b44dfa85a5d827.gif"
     },
     {
       title: "UI/UX Design",
       description: "Industry Leading Development with award-winning animations and latest technologies",
       technologies: ["Figma", "Adobe XD", "Sketch"],
-      image: "https://i.pinimg.com/originals/79/06/59/7906595f1669df4c15a3b24e8a76d980.gif"
+      image: "https://i.pinimg.com/originals/ee/0d/b9/ee0db9f28add47c4a2f7b3a4f953edb7.gif"
     },
     {
       title: "Brand Identity & Visual Identity",
       description: "Industry Leading Development with award-winning animations and latest technologies",
       technologies: ["Branding", "Visual Identity"],
-      image: "https://i.pinimg.com/originals/0f/d9/46/0fd94656b3dded6e0aec40d63dd3fcb9.gif"
+      image: "https://i.pinimg.com/originals/40/e8/86/40e88600ca26f830049b09ae25f54ec3.gif"
     }
   ];
 
