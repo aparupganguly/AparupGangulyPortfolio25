@@ -3,27 +3,19 @@ import React from 'react';
 const Footer = () => {
     return (
         <>
-            <footer style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor: 'black',
-                padding: '20px',
-                color: 'white',
-                fontSize: '16px',
-                fontFamily: 'Arial, sans-serif'
+
+            <div style={{
+                position: 'fixed',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                height: '5px',
+                backgroundColor: '#000',
+                margin: 0,
+                padding: 0,
+                boxSizing: 'border-box'
             }}>
-                <div style={{ marginRight: '20px', cursor: 'pointer' }}>{'<'}</div>
-                <div style={{ marginRight: '20px', cursor: 'pointer' }}>{'/'}
-                </div>
-                <div style={{ marginRight: '20px', fontWeight: 'bold' }}>
-                    Aparup Ganguly
-                </div>
-                <div style={{ marginRight: '20px', cursor: 'pointer' }}>LinkedIn</div>
-                <div style={{ marginRight: '20px', cursor: 'pointer' }}>GitHub</div>
-                <div style={{ cursor: 'pointer' }}>X (Twitter)</div>
-            </footer>
-            
+            </div>
         </>
     );
 };
