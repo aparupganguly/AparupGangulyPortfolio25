@@ -84,6 +84,8 @@
     flex-direction: column;
     gap: 2rem;
     padding-left: 0;
+    margin-left: 0;
+    border: none;
   }
 
   .service-image-container {
@@ -98,5 +100,8 @@
 
   .service-tags {
     justify-content: flex-start;
+  }
+  .services-container {
+    margin-left: 0;
   }
 }
