@@ -11,15 +11,13 @@ const App = () => {
   return (
     <>
       <ReactLenis root>
-        <div style={{ minHeight: '100vh', margin: 0, padding: 0 }}>
-          <CustomCursor />
-          <Navbar />
-          <Hero />
-          <Works />
-          <Skills />
-          <Contact />
-          <Footer />
-        </div>
+        <CustomCursor />
+        <Navbar />
+        <Hero />
+        <Works />
+        <Skills />
+        <Contact />
+        <Footer />
 
       </ReactLenis>
     </>

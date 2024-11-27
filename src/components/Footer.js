@@ -2,19 +2,33 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div style={{
-            position: 'fixed',      // Sticks the footer to the bottom
-            bottom: 0,              // Aligns it to the bottom of the viewport
-            left: 0,
-            width: '100%',          // Covers full width
-            height: '5px',          // Thickness of the black line
-            backgroundColor: '#000', // Black color
-            margin: 0,
-            padding: 0,
-            boxSizing: 'border-box' // Ensures no extra spacing
-        }}>
-        </div>
+        <>
+            <footer style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                backgroundColor: 'black',
+                padding: '20px',
+                color: 'white',
+                fontSize: '16px',
+                fontFamily: 'Arial, sans-serif'
+            }}>
+                <div style={{ marginRight: '20px', cursor: 'pointer' }}>{'<'}</div>
+                <div style={{ marginRight: '20px', cursor: 'pointer' }}>{'/'}
+                </div>
+                <div style={{ marginRight: '20px', fontWeight: 'bold' }}>
+                    Aparup Ganguly
+                </div>
+                <div style={{ marginRight: '20px', cursor: 'pointer' }}>LinkedIn</div>
+                <div style={{ marginRight: '20px', cursor: 'pointer' }}>GitHub</div>
+                <div style={{ cursor: 'pointer' }}>X (Twitter)</div>
+            </footer>
+            
+        </>
     );
 };
 
 export default Footer;
+
+
+

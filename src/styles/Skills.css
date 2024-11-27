@@ -83,6 +83,7 @@
   .service-card {
     flex-direction: column;
     gap: 2rem;
+    padding-left: 0;
   }
 
   .service-image-container {

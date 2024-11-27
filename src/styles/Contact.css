@@ -51,11 +51,15 @@
 .interest-form {
   padding-left: 2em;
   padding-right: 2em;
-  height: 130vh;
+  height: 160vh;
 }
 
 .form-section {
 }
 .submitBtn {
-  margin-top: 3em;
+  margin-top: 2em;
+  padding-bottom: 5em;
+}
+.interest-form {
+  margin-bottom: 1em;
 }
