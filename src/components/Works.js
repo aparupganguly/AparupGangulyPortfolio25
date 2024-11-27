@@ -3,10 +3,13 @@ import "../styles/Works.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
+import work2 from "../assets/works/Work2.png";
+
+
 const Works = () => {
   const works = [
-    { id: 1, title: 'VR Experience', category: 'large', imageUrl: 'https://i.pinimg.com/enabled_lo/564x/52/6d/e7/526de71be3fafe6d388751c888f589cf.jpg' },
-    { id: 2, title: 'Digital Profile', category: 'medium', imageUrl: 'https://i.pinimg.com/enabled_lo/564x/78/05/b5/7805b58809a73e76d19b531d4e1eaf9e.jpg' },
+    { id: 1, title: 'VR Experience', category: 'large', imageUrl: 'https://i.pinimg.com/originals/44/1e/32/441e328fd72158865ea1b983f0a80ba9.gif' },
+    { id: 2, title: 'Digital Profile', category: 'medium', imageUrl: work2 },
     { id: 3, title: 'Effects Project', category: 'medium', imageUrl: 'https://i.pinimg.com/736x/39/87/7e/39877e9faf76211f415c16db93888f69.jpg' },
     { id: 4, title: 'Interface Design', category: 'large', imageUrl: 'https://i.pinimg.com/564x/58/6a/50/586a50eac1c28cf097532a37dd3439ce.jpg' },
     { id: 5, title: 'Abstract Art', category: 'large', imageUrl: 'https://i.pinimg.com/enabled_lo/564x/e2/77/07/e27707bae5618730ed014fac9140417c.jpg' },
@@ -101,7 +104,7 @@ const Works = () => {
   }, []);
 
   return (
-    <div className='worksContainer' ref={containerRef}>
+    <div className='worksContainer' id ="workContainerId" ref={containerRef}>
       <p className='workTitle' ref={titleRef}>
         Featured
         <span> Work* </span>

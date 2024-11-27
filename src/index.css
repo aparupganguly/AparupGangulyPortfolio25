@@ -1,18 +1,15 @@
 * {
   -webkit-user-drag: none;
   user-select: none;
+  max-width: 100%;
+  box-sizing: border-box;
 }
-
 
 body {
   font-family: "Helvetica Now Display";
   /* Make Sure To Add Global Fonts */
   background-color: #fcf9f0;
   overflow-x: hidden;
-}
-* {
-  max-width: 100%;
-  box-sizing: border-box;
 }
 
 @font-face {

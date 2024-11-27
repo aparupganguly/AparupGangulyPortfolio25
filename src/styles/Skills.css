@@ -1,13 +1,14 @@
 .services-container {
   margin: 0 auto;
-  padding-top: 2em;
+  padding-top: 5em;
+  padding-left: 2em;
 }
 
 .service-card {
   display: flex;
   align-items: stretch;
   gap: 3rem;
-  padding: 4em 0;
+  padding: 2em;
   border-bottom: 1px solid #d7d7d7;
   border-top: 1px solid #d7d7d7;
 }
@@ -21,7 +22,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 2rem;
+  border-radius: 14px;
   background-color: #f3f4f6;
 }
 
@@ -35,11 +36,12 @@
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 1.5rem;
+  font-family: "Helvetica-Regular";
+  letter-spacing: -0.5px;
 }
 
 .service-title {
   font-size: 1.875rem;
-  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -51,10 +53,11 @@
 }
 
 .service-tag {
-  padding: 0.25rem 1rem;
-  background-color: #f3f4f6;
+  padding: 0.5rem 1.25rem;
+  background-color: transparent;
   color: #374151;
   border-radius: 9999px;
+  border: 2px solid #b6b6b6;
   font-size: 0.875rem;
   white-space: nowrap;
 }

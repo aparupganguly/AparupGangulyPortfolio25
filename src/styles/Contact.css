@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   gap: 3em;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 3em;
   max-width: 50em;
 }
 
@@ -33,10 +33,7 @@
   background: transparent;
   outline: none;
   font-size: 16px;
-}
-
-.submit-button:hover {
-  background-color: #333;
+  padding-bottom: 1em;
 }
 
 .contact-heading {
@@ -54,7 +51,11 @@
 .interest-form {
   padding-left: 2em;
   padding-right: 2em;
+  height: 130vh;
 }
 
-.form-section input {
+.form-section {
+}
+.submitBtn {
+  margin-top: 3em;
 }

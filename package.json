@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.115.0",
     "@react-three/fiber": "^8.17.10",
     "@studio-freight/react-lenis": "^0.0.47",
@@ -10,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
+    "emailjs": "^4.0.3",
     "framer-motion": "^11.11.11",
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",

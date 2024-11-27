@@ -56,32 +56,39 @@ const Skills = () => {
     {
       title: "Web & Mobile Application Development",
       description: "Industry Leading Development with 3D & 2D award-winning animations and latest technologies",
-      technologies: ["React.JS", "Three.JS", "Next.JS", "React Native", "TypeScript"],
-      image: "https://i.pinimg.com/736x/3d/0d/9e/3d0d9e03ccea6e96c7cb0aa131b993ed.jpg"
+      technologies: ["React.JS", "Three.JS", "Next.JS", "React Native", "TypeScript", "GSAP",],
+      image: "https://i.pinimg.com/originals/c4/37/12/c43712af49b76ffbf268dd254800624d.gif"
     },
     {
       title: "UI/UX Design",
       description: "Industry Leading Development with award-winning animations and latest technologies",
       technologies: ["Figma", "Adobe XD", "Sketch"],
-      image: "https://i.pinimg.com/736x/5a/62/95/5a6295e6b5cce93a42e29c4cf86d726b.jpg"
+      image: "https://i.pinimg.com/originals/79/06/59/7906595f1669df4c15a3b24e8a76d980.gif"
     },
     {
       title: "Brand Identity & Visual Identity",
       description: "Industry Leading Development with award-winning animations and latest technologies",
       technologies: ["Branding", "Visual Identity"],
-      image: "https://i.pinimg.com/736x/78/a8/e6/78a8e64d18e54fd5b1733e79cd4ac31b.jpg"
+      image: "https://i.pinimg.com/originals/0f/d9/46/0fd94656b3dded6e0aec40d63dd3fcb9.gif"
     }
   ];
 
   return (
-    <div className="services-container">
-      {services.map((service) => (
-        <ServiceCard
-          key={service.title}
-          {...service}
-        />
-      ))}
-    </div>
+    <>
+
+      <div className="services-container" id = "Skills">
+        <p className='workTitle' style={{ paddingBottom: '2em', }} >
+          Top
+          <span> Skills* </span>
+        </p>
+        {services.map((service) => (
+          <ServiceCard
+            key={service.title}
+            {...service}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 
