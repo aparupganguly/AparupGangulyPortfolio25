@@ -57,7 +57,7 @@ const Skills = () => {
       title: "Web & Mobile Application Development",
       description: "Industry Leading Development with 3D & 2D award-winning animations and latest technologies",
       technologies: ["React.JS", "Three.JS", "Next.JS", "React Native", "TypeScript", "GSAP",],
-      image: "https://i.pinimg.com/originals/5b/e9/95/5be995084220773903b44dfa85a5d827.gif"
+      image: "https://i.pinimg.com/originals/62/db/a2/62dba2ee08a822e6c5527a85bc7ad8b3.gif"
     },
     {
       title: "UI/UX Design",

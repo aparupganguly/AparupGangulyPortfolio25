@@ -112,6 +112,9 @@ const Navbar = () => {
             <a href='#contacts' style={{ textDecoration: "none" }} onClick={toggleMenu}>
               <p>Contact</p>
             </a>
+            <a href='https://linktr.ee/aparupganguly'target="_blank" style={{ textDecoration: "none" }} onClick={toggleMenu}>
+              <p>Socials</p>
+            </a>
           </div>
         </div>
       )}
