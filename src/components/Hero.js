@@ -30,7 +30,7 @@ const Hero = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 0.8, // Shorter duration
+        duration: 0.5, // Shorter duration
         stagger: 0.05, // Reduced stagger time
         ease: "power2.out",
       }
@@ -40,18 +40,18 @@ const Hero = () => {
     tl.fromTo(
       ".availableText",
       { opacity: 0, y: 20 },
-      { opacity: 1, y: 0, delay: 0.1 } // Small delay after hero name
+      { opacity: 1, y: 0, } // Small delay after hero name
     )
-    .fromTo(
-      ".leftText",
-      { opacity: 0, y: 20 },
-      { opacity: 1, y: 0, delay: 0.01 }
-    )
-    .fromTo(
-      ".scrollInstructionTextPc",
-      { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, delay: 0.01 }
-    );
+      .fromTo(
+        ".leftText",
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, }
+      )
+      .fromTo(
+        ".scrollInstructionTextPc",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, }
+      );
 
     // Smooth hover effects
     const handleMouseEnter = (event) => {

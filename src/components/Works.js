@@ -6,6 +6,9 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import work1 from "../assets/works/Work 1.png";
 import work2 from "../assets/works/Work2.png";
 import work3 from "../assets/works/Work3.png";
+import work4 from "../assets/works/Work4.png";
+import work5 from "../assets/works/Work5.png";
+import work6 from "../assets/works/Work6.png";
 
 const Works = () => {
   const works = [
@@ -18,10 +21,9 @@ const Works = () => {
 
 
 
-    { id: 4, title: 'Interface Design', category: 'large', imageUrl: 'https://i.pinimg.com/564x/58/6a/50/586a50eac1c28cf097532a37dd3439ce.jpg', url: 'https://www.example4.com' },
-    { id: 5, title: 'Abstract Art', category: 'large', imageUrl: 'https://i.pinimg.com/enabled_lo/564x/e2/77/07/e27707bae5618730ed014fac9140417c.jpg', url: 'https://www.example5.com' },
-    { id: 6, title: 'Typography', category: 'medium', imageUrl: 'https://i.pinimg.com/736x/3f/30/fb/3f30fbfc6eae2f070c28e81bf0b8904d.jpg', url: 'https://www.example6.com' },
-    { id: 7, title: 'Product Design', category: 'large', imageUrl: 'https://i.pinimg.com/enabled_lo/564x/36/51/b3/3651b34ceefa14b8a660995c39d56de5.jpg', url: 'https://www.example7.com' }
+    { id: 4, title: 'Comet Revamp', category: 'large', imageUrl: work4, url: 'https://comet-revamp-white-space.vercel.app/' },
+    { id: 5, title: 'Chainvest', category: 'large', imageUrl: work5, url: 'https://github.com/aparupganguly/ChainVest.git' },
+    { id: 6, title: 'SleepyOwl', category: 'medium', imageUrl: work6, url: 'https://sleepy-owl-revamp-team-whitespace.vercel.app/' },
   ];
 
   const containerRef = useRef(null);
