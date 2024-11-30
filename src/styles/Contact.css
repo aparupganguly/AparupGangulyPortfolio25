@@ -59,6 +59,7 @@
 .submitBtn {
   margin-top: 2em;
   padding-bottom: 5em;
+  cursor: pointer;
 }
 .interest-form {
   margin-bottom: 1em;
