@@ -61,7 +61,7 @@ const Skills = () => {
     },
     {
       title: "UI/UX Design",
-      description: "Pixel Perfect UI/UX design with clean and minimal layouts",
+      description: "Pixel Perfect UI/UX design with clean and minimal layouts, user-centric interfaces that combine aesthetics and functionality for memorable digital experiences  ",
       technologies: ["Figma", "Adobe XD", "Sketch"],
       image: "https://i.pinimg.com/originals/ee/0d/b9/ee0db9f28add47c4a2f7b3a4f953edb7.gif"
     },
