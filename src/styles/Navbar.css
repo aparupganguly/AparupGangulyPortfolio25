@@ -10,7 +10,7 @@
 /* Time display styling */
 .time {
   text-align: center;
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica-Regular";
   font-size: 16px;
   background: linear-gradient(90deg, #0a0a0a 0%, #707070 100%);
   background-clip: text;
@@ -64,7 +64,7 @@
   font-size: 48px;
   margin: 20px 0;
   cursor: pointer;
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica-Regular";
   color: #333;
   padding-left: 1em;
 }
